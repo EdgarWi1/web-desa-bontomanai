@@ -1,4 +1,4 @@
-<div class="indent-16">
+<div class="indent-8 md:indent-16">
         Desa Bontomanai adalah salah satu Desa yang asal mula kelahirannya adalah hasil pemekaran dari desa kalimporo (
         sebuah Desa yang terletak disebalah barat desa Bontomani Desa yang asal mula bernama Mangngalero, namun diubah
         menjadi Desa Bontomanai yang artinya gunung “menonjol”. nama ini di ambil karena Desa ini memiliki gunung yang
@@ -11,7 +11,7 @@
         dengan wilaya pemerintahannya meliputi 8 dusun yakni : <br>
         <br>
 </div>
-<div class="ml-16">
+<div class="ml-8 md:ml-16">
         1. Dusun Bontomanai <br>
         2. Dusun Parangcameka <br>
         3. Dusun Aranaya <br>

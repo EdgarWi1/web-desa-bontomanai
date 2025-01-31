@@ -35,13 +35,16 @@
         @include('partials.footers')
 
         <script>
-                document.getElementById("hamburger").onclick = function toggleMenu() {
-                        const navToggle = document.getElementsByClassName("toggle");
-                        for (let i = 0; i < navToggle.length; i++) {
-                                navToggle.item(i).classList.toggle("hidden");
-                        }
-                };
+                document.addEventListener("DOMContentLoaded", function() {
+                        const button = document.getElementById("hamburger");
+                        const icons = document.querySelectorAll(".toggle");
+
+                        button.addEventListener("click", function() {
+                                icons.forEach(icon => icon.classList.toggle("hidden"));
+                        });
+                });
         </script>
+
 </body>
 
 </html>
