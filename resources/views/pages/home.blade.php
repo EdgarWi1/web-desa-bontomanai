@@ -11,7 +11,7 @@
 
                 </div>
                 <div class="absolute inset-9 flex flex-col md:flex-row items-center justify-between">
-                        <div class="flex md:w-1/2 items-center mt-20 md:mt-0 md:mb-10">
+                        <div class="flex md:w-1/2 items-center mt-56 md:mt-0 md:mb-10">
                                 <h1 class="text-grey-700 font-medium text-3xl md:text-5xl leading-tight mb-2">
                                         Desa Bontomanai
                                         Kecamatan Bangkala
@@ -21,21 +21,28 @@
                 </div>
         </div>
 
-        <!-- our services section -->
+        <!-- sambutan -->
         <section class="py-10" id="services">
                 <div class="container mx-auto px-4">
                         <h2 class="text-3xl font-bold text-[#21b92d] mb-8 text-center">Sambutan Kepala Desa</h2>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <div class="container flex items-center justify-end md:col-span-2 md:mb-10">
+                                        <p class="text-md">
+                                                Website ini hadir sebagai wujud transformasi desa Bontomanai menjadi desa yang
+                                                mampu
+                                                memanfaatkan teknologi informasi dan komunikasi, terintegrasi kedalam sistem
+                                                online.
+                                                <br>
+                                                Terima kasih kepada semua pihak yang telah banyak memberi dukungan dan
+                                                kontribusi baik berupa tenaga, pikiran dan semangat sehingga website ini dapat
+                                                terealisasi.
+
+                                        </p>
+                                </div>
                                 <div class="container flex flex-col justify-center items-center ">
                                         <img src="{{ asset('images/profil.jpeg') }}" alt="foto kepala desa" alt="foto kades"
                                                 class="h-auto w-60 md:w-30 rounded-full object-cover">
                                         <p class="font-bold text-lg mt-2">Radjadeng, S.Pd.I</p>
-                                </div>
-                                <div class="container flex items-center md:col-span-2 md:mb-10">
-                                        <p class="text-md">
-                                                Selamat datang di Website Desa Bontomanai,
-
-                                        </p>
                                 </div>
                         </div>
         </section>
@@ -44,22 +51,36 @@
         <section class="container" id="aboutus">
                 <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
                         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-                                <div class="max-w-lg">
-                                        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Tentang Desa</h2>
-                                        <p class="mt-4 text-gray-600 text-lg">
-                                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua.
-                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                                ut aliquip ex ea commodo consequat.
-                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                                dolore eu fugiat nulla pariatur.
-                                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                                officia deserunt mollit anim id est laborum."</p>
-                                </div>
                                 <div class="mt-12 md:mt-0">
                                         <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
                                                 alt="About Us Image" class="object-cover rounded-lg shadow-md">
                                 </div>
+                                <div class="max-w-lg">
+                                        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Tentang Desa</h2>
+                                        <p class="mt-4 text-gray-600 text-lg line-clamp-6">
+                                                Desa Bontomanai adalah salah satu Desa yang asal mula kelahirannya adalah hasil
+                                                pemekaran dari desa kalimporo ( sebuah Desa yang terletak disebalah barat desa
+                                                Bontomani Desa yang asal mula bernama Mangngalero, namun diubah menjadi Desa
+                                                Bontomanai yang artinya gunung “menonjol”. Nama ini di ambil karena Desa ini
+                                                memiliki gunung yang bermunculan sehingga di namakan Desa Bontomanai. Kepala
+                                                Desa yang menjabat pada saat itu adalah bapak Alimajjid. SOS masa hidmad 2005
+                                                sampe 2006 dan tidak lama kemudian diangkat menjadi lura. dikarenakan adanya
+                                                kekosongan jabatan maka Bapak Abdul Rahman. sos selaku Ketua bpd (badan
+                                                permusyawaratan daerah) pada saat itu di tunjuk langsung sebagai pelaksana tugas
+                                                oleh kabupaten, 2 tahun kemudian diadakan pemilihan secara langsung untuk memili
+                                                keopala desa yang baru dan bapak saat itu adalah bapak saparuddin. setelah
+                                                pemilian terjadi maka terpilih bapak abdul. rahman sebagai kepala desa
+                                                berikutnya. luas wilayah desa bontomanai di perkirakan mencapai 1,65 m dengan
+                                                wilaya pemerintahannya meliputi 8 dusun yakni :</p>
+                                        <div class="flex justify-end mt-2">
+                                                <a href="{{ route('tentangDesa') }}">
+                                                        <p class="text-sm text-blue-600">
+                                                                Lihat Selengkapnya ->
+                                                        </p>
+                                                </a>
+                                        </div>
+                                </div>
+
                         </div>
                 </div>
         </section>
@@ -73,7 +94,7 @@
                         <div class="grid grid-cols-2 shadow-lg">
                                 <div class="flex justify-center items-center bg-[#21b92d] rounded-s-md p-3">
                                         <div class="text-2xl md:text-3xl font-bold text-white">
-                                                1000
+                                                4.078
                                         </div>
                                 </div>
                                 <div class="flex justify-center items-center bg-gray-200 rounded-e-md">
@@ -86,7 +107,7 @@
                         <div class="grid grid-cols-2 shadow-lg">
                                 <div class="flex justify-center items-center bg-[#21b92d] rounded-s-md p-3">
                                         <div class="text-2xl md:text-3xl font-bold text-white">
-                                                1000
+                                                1.871
                                         </div>
                                 </div>
                                 <div class="flex justify-center items-center bg-gray-200 rounded-e-md">
@@ -99,7 +120,7 @@
                         <div class="grid grid-cols-2 shadow-lg">
                                 <div class="flex justify-center items-center bg-[#21b92d] rounded-s-md p-3">
                                         <div class="text-2xl md:text-3xl font-bold text-white">
-                                                1000
+                                                1.064
                                         </div>
                                 </div>
                                 <div class="flex justify-center items-center bg-gray-200 rounded-e-md">
@@ -112,7 +133,7 @@
                         <div class="grid grid-cols-2 shadow-lg">
                                 <div class="flex justify-center items-center bg-[#21b92d] rounded-s-md p-3">
                                         <div class="text-2xl md:text-3xl font-bold text-white">
-                                                1000
+                                                2.217
                                         </div>
                                 </div>
                                 <div class="flex justify-center items-center bg-gray-200 rounded-e-md">
@@ -219,7 +240,7 @@
 
         <!-- Visit us section -->
         <section class="bg-gray-100">
-                <div class="max-w-7xl mx-auto pt-8 px-4 sm:px-6 lg:py-20 lg:px-8">
+                <div class="max-w-7xl mx-auto pt-8 px-4 sm:px-6 lg:py-10 lg:px-8">
                         <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
                                 <h2 class="text-3xl font-extrabold text-gray-900" id="contactUs">Visit Our Location
                                 </h2>
@@ -227,8 +248,7 @@
                         </div>
                         <div class="my-6">
                                 {{-- Map View --}}
-                                <div id="map"
-                                        class="rounded-lg overflow-hidden order-none sm:order-first px-4   md:px-20">
+                                <div id="map" class="rounded-lg overflow-hidden order-none sm:order-first px-4 md:px-20">
                                         <iframe class="w-full h-60 md:h-80"
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15098.23950983526!2d119.60358719373171!3d-5.560524460717971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbecd5cdc4b9c5f%3A0xde091fd9bdf357c0!2sBontomanai%2C%20Bangkala%2C%20Kabupaten%20Jeneponto%2C%20Sulawesi%20Selatan!5e1!3m2!1sid!2sid!4v1736516579508!5m2!1sid!2sid"
                                                 style="border:0;" allowfullscreen="false" loading="lazy"
