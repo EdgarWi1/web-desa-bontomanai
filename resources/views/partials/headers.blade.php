@@ -38,8 +38,8 @@
                 <a href="{{ route('tentangDesa') }}"
                         class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Tentang
                         Desa</a>
-                <a href="#gallery"
-                        class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Gallery</a>
+                {{-- <a href="#gallery"
+                        class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Gallery</a> --}}
                 <a href="{{ route('petaDigital') }}"
                         class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Peta
                         Digital</a>

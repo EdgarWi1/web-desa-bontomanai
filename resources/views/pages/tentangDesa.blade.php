@@ -17,12 +17,16 @@
                                                 class="tab-button py-2 px-4 text-blue-600 hover:text-blue-800">Sejarah
                                                 Desa</button>
                                         <button id="tab2"
-                                                class="tab-button py-2 px-4 text-blue-600 hover:text-blue-800">Organisasi</button>
+                                                class="tab-button py-2 px-4 text-blue-600 hover:text-blue-800">Kondisi
+                                                Geografis</button>
                                         <button id="tab3"
                                                 class="tab-button py-2 px-4 text-blue-600 hover:text-blue-800">Sosial
                                                 Budaya</button>
                                         <button id="tab4"
                                                 class="tab-button py-2 px-4 text-blue-600 hover:text-blue-800">Pertanian</button>
+                                        <button id="tab5"
+                                                class="tab-button py-2 px-4 text-blue-600 hover:text-blue-800">Kelembagaan
+                                                Desa</button>
                                 </div>
 
                                 <!-- Tab content -->
@@ -31,7 +35,7 @@
                                         <div id="tab1-content" class="tab-panel hidden">
                                                 <h1 class="text-center text-3xl md:text-5xl text-black font-bold my-4 md:my-8">
                                                         Sejarah Desa</h1>
-                                                <p class="text-black text-xl md:text-2xl prose">
+                                                <p class="text-black text-md md:text-2xl ">
                                                         @include('partials.tentangDesaText')
                                                 </p>
                                         </div>
@@ -39,8 +43,8 @@
                                         <!-- Tab 2 content -->
                                         <div id="tab2-content" class="tab-panel hidden">
                                                 <h1 class="text-center text-3xl md:text-5xl text-black font-bold mb-4 md:mb-8">
-                                                        Ogranisasi</h1>
-                                                <p class="text-black text-xl md:text-2xl prose">
+                                                        Kondisi Geografis</h1>
+                                                <p class="text-black text-sm md:text-2xl ">
                                                         @include('partials.kondisiGeografis')
                                                 </p>
                                         </div>
@@ -49,7 +53,7 @@
                                         <div id="tab3-content" class="tab-panel hidden">
                                                 <h1 class="text-center text-3xl md:text-5xl text-black font-bold mb-4 md:mb-8">
                                                         Sosial Budaya</h1>
-                                                <p class="text-black text-xl md:text-2xl prose">
+                                                <p class="text-black text-sm md:text-2xl ">
                                                         @include('partials.sosialBudaya ')
                                                 </p>
                                         </div>
@@ -58,8 +62,17 @@
                                         <div id="tab4-content" class="tab-panel hidden">
                                                 <h1 class="text-center text-3xl md:text-5xl text-black font-bold mb-4 md:mb-8">
                                                         Pertanian</h1>
-                                                <p class="text-black text-xl md:text-2xl prose">
+                                                <p class="text-black text-sm md:text-2xl ">
                                                         @include('partials.pertanian')
+                                                </p>
+                                        </div>
+
+                                        <!-- Tab 5 content -->
+                                        <div id="tab5-content" class="tab-panel hidden">
+                                                <h1 class="text-center text-3xl md:text-5xl text-black font-bold mb-4 md:mb-8">
+                                                        Kelembagaan Desa</h1>
+                                                <p class="text-black text-sm md:text-2xl ">
+                                                        @include('partials.kelembagaanDesa')
                                                 </p>
                                         </div>
                                 </div>

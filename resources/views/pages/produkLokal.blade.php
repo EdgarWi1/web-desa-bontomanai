@@ -11,7 +11,7 @@
                                 <h3 class="mb-1 text-slate-900 font-semibold">
                                         <span>Selai Lontar</span>
                                 </h3>
-                                <div class="prose prose-slate prose-sm text-slate-600">
+                                <div class="prose-lg text-slate-600">
                                         <p>Inovasi dari buah lontar. Diambil dari buah lontar muda dan dimasak menjadi selai</p>
                                 </div>
                         </div>
@@ -25,7 +25,7 @@
                                 <h3 class="flex flex-col mb-1 text-slate-900 font-semibold">
                                         <span>Pie Lontar</span>
                                 </h3>
-                                <div class="prose prose-slate prose-sm text-slate-600">
+                                <div class="prose-lg text-slate-600">
                                         <p>Inovasi dari buah lontar. Diambil dari campuran buah lontar muda dan lontar masak
                                                 lalu dimasukkan ke adonan pie, sehingga membuat pie memiliki aroma unik dari
                                                 buah lontar</p>
