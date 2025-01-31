@@ -26,7 +26,7 @@
                 <div class="container mx-auto px-4">
                         <h2 class="text-3xl font-bold text-[#21b92d] mb-8 text-center">Sambutan Kepala Desa</h2>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <div class="container flex items-center justify-end md:col-span-2 md:mb-10">
+                                <div class="order-1 flex items-center justify-end md:col-span-2 md:mb-10">
                                         <p class="text-md">
                                                 Website ini hadir sebagai wujud transformasi desa Bontomanai menjadi desa yang
                                                 mampu
@@ -73,11 +73,16 @@
                                                 berikutnya. luas wilayah desa bontomanai di perkirakan mencapai 1,65 m dengan
                                                 wilaya pemerintahannya meliputi 8 dusun yakni :</p>
                                         <div class="flex justify-end mt-2">
-                                                <a href="{{ route('tentangDesa') }}">
-                                                        <p class="text-sm text-blue-600">
-                                                                Lihat Selengkapnya ->
-                                                        </p>
-                                                </a>
+                                                <a class="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900 focus:ring-slate-500 mt-6"
+                                                        href="">Lihat Selengkapnya<span class="sr-only">, Completely
+                                                                unstyled, fully accessible UI
+                                                                components</span>
+                                                        <svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-400"
+                                                                width="3" height="6" viewBox="0 0 3 6" fill="none"
+                                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round">
+                                                                <path d="M0 0L3 3L0 6"></path>
+                                                        </svg></a>
                                         </div>
                                 </div>
 
@@ -248,7 +253,8 @@
                         </div>
                         <div class="my-6">
                                 {{-- Map View --}}
-                                <div id="map" class="rounded-lg overflow-hidden order-none sm:order-first px-4 md:px-20">
+                                <div id="map"
+                                        class="rounded-lg overflow-hidden order-none sm:order-first px-4 md:px-20">
                                         <iframe class="w-full h-60 md:h-80"
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15098.23950983526!2d119.60358719373171!3d-5.560524460717971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbecd5cdc4b9c5f%3A0xde091fd9bdf357c0!2sBontomanai%2C%20Bangkala%2C%20Kabupaten%20Jeneponto%2C%20Sulawesi%20Selatan!5e1!3m2!1sid!2sid!4v1736516579508!5m2!1sid!2sid"
                                                 style="border:0;" allowfullscreen="false" loading="lazy"

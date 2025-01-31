@@ -9,7 +9,7 @@
                         style="background-image: url('https://images.unsplash.com/photo-1604093882750-3ed498f3178b');">
                 </div>
                 <div class="flex flex-col bg-slate-300 rounded-xl my-10 mx-2 md:mx-32 p-6 leading-relaxed break-words">
-                        <h1 class="text-center text-5xl md:text-7xl text-black font-bold mb-8">Tentang Desa</h1>
+                        <h1 class="text-center text-3xl md:text-7xl text-black font-bold mb-4 md:mb-8">Tentang Desa</h1>
                         <p class="text-black text-xl md:text-2xl prose">
                                 @include('partials.tentangDesaText')
                         </p>

@@ -1,11 +1,7 @@
 module.exports = {
-    content: [
-      './resources/views/**/*.blade.php',
-      './resources/js/**/*.js'
-    ],
+    content: ["./resources/views/**/*.blade.php", "./resources/js/**/*.js"],
     theme: {
-      extend: {}
+        extend: {},
     },
-    plugins: []
-  };
-  
+    plugins: [require("@tailwindcss/typography")],
+};
