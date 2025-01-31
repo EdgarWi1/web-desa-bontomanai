@@ -1,4 +1,4 @@
-<nav class="font- flex flex-wrap items-center justify-between p-3 bg-[#21b92d] sticky top-0 z-10">
+<nav class="font- flex flex-wrap items-center justify-between p-3 bg-[#21b92d] sticky top-0 z-20">
         <div class="flex items-center">
                 <img src="{{ asset('images/Logo_Jeneponto.png') }}" alt="Logo Kabupaten" width="60" height="60">
                 <div class="ml-3">

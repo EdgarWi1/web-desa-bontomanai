@@ -9,7 +9,6 @@
         memili keopala desa yang baru dan bapak saat itu adalah bapak saparuddin. setelah pemilian terjadi maka terpilih
         bapak abdul. rahman sebagai kepala desa berikutnya. luas wilayah desa bontomanai di perkirakan mencapai 1,65 m
         dengan wilaya pemerintahannya meliputi 8 dusun yakni : <br>
-        <br>
 </div>
 <div class="ml-8 md:ml-16">
         1. Dusun Bontomanai <br>
@@ -20,7 +19,6 @@
         6. Dusun Bonto Salangka <br>
         7. Dusun Kalappoka <br>
         8. Dusun Bada-Bada <br>
-        <br>
 </div>
 <div class="indent-16">
         Jumlah penduduk kurang lebih sekitar 2700 jiwa pada masa pemerintahan abdul rahman. Sos masa inilah kondisi
