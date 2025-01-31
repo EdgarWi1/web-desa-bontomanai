@@ -1,6 +1,6 @@
 <section>
         <footer class="bg-gray-200">
-                <div class="grid grid-cols-3 items-center gap-8 px-6 py-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 items-center gap-1 md:gap-8 px-6 py-4">
                         <div class="flex">
                                 <img src="{{ asset('images/Logo_Jeneponto.png') }}" alt="Logo Kabupaten" width="60"
                                         height="60">
