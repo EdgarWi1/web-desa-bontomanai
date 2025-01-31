@@ -40,38 +40,6 @@
                         </div>
         </section>
 
-        {{-- point 3 --}}
-        {{-- <section class="py-10 bg-gray-100" id="services">
-    <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Point 3</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                            <img src="https://image3.jdomni.in/banner/13062021/42/5C/B1/45AC18B7F8EE562BC3DDB95D34_1623559815667.png?output-format=webp"
-                                    alt="wheat flour grinding" class="w-full h-64 object-cover">
-                            <div class="p-6 text-center">
-                                    <h3 class="text-xl font-medium text-gray-800 mb-2">Wheat Flour Grinding
-                                    </h3>
-                                    <p class="text-gray-700 text-base">Our wheat flour grinding service
-                                            provides fresh, high-quality
-                                            flour to businesses and individuals in the area. We use
-                                            state-of-the-art equipment to grind
-                                            wheat into flour, and we offer a variety of flours to meet the
-                                            needs of our customers.</p>
-                            </div>
-                    </div>
-                    <div class="">
-                            <p class="font-bold text-2xl text-[#21b92d]">Sambutan Kepala Desa</p>
-                            <p class="font-bold text-lg">Radjadeng, S.Pd.I</p>
-                            <p class="text-md">Our wheat flour grinding service
-                                    provides fresh, high-quality
-                                    flour to businesses and individuals in the area. We use
-                                    state-of-the-art equipment to grind
-                                    wheat into flour, and we offer a variety of flours to meet the
-                                    needs of our customers</p>
-                    </div>
-            </div>
-</section> --}}
-
         <!-- about us -->
         <section class="container" id="aboutus">
                 <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
@@ -257,10 +225,11 @@
                                 </h2>
                                 <p class="mt-3 text-lg text-gray-500">Let us serve you the best</p>
                         </div>
-                        <div class="mt-6">
+                        <div class="my-6">
                                 {{-- Map View --}}
-                                <div id="map" class="rounded-lg overflow-hidden order-none sm:order-first px-20">
-                                        <iframe class="w-full h-80"
+                                <div id="map"
+                                        class="rounded-lg overflow-hidden order-none sm:order-first px-4   md:px-20">
+                                        <iframe class="w-full h-60 md:h-80"
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15098.23950983526!2d119.60358719373171!3d-5.560524460717971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbecd5cdc4b9c5f%3A0xde091fd9bdf357c0!2sBontomanai%2C%20Bangkala%2C%20Kabupaten%20Jeneponto%2C%20Sulawesi%20Selatan!5e1!3m2!1sid!2sid!4v1736516579508!5m2!1sid!2sid"
                                                 style="border:0;" allowfullscreen="false" loading="lazy"
                                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
