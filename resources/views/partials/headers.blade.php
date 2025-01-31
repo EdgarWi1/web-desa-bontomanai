@@ -20,17 +20,17 @@
         <div
                 class=" toggle hidden w-full md:w-auto md:flex text-center text-lg text-white text-bold mt-5 md:mt-0 md:border-none">
                 <a href="{{ route('home') }}"
-                        class="block md:inline-block hover:text-black hover:font-bold px-3 py-3 md:border-none">Home</a>
+                        class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Home</a>
                 <a href="{{ route('produkLokal') }}"
-                        class="block md:inline-block hover:text-black hover:font-bold px-3 py-3 md:border-none">Produk
+                        class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Produk
                         Lokal</a>
                 <a href="{{ route('tentangDesa') }}"
-                        class="block md:inline-block hover:text-black hover:font-bold px-3 py-3 md:border-none">Tentang
+                        class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Tentang
                         Desa</a>
                 <a href="#gallery"
-                        class="block md:inline-block hover:text-black hover:font-bold px-3 py-3 md:border-none">Gallery</a>
+                        class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Gallery</a>
                 <a href="{{ route('petaDigital') }}"
-                        class="block md:inline-block hover:text-black hover:font-bold px-3 py-3 md:border-none">Peta
+                        class="block md:inline-block hover:text-black hover:font-medium px-3 py-3 md:border-none">Peta
                         Digital</a>
         </div>
 </nav>
