@@ -4,22 +4,101 @@
 
 @section('content')
         <!-- hero seciton -->
-        <div class="relative w-full min-h-screen" id="home">
-                <div class="absolute inset-0 opacity-70">
-                        <img src="https://image1.jdomni.in/banner/13062021/0A/52/CC/1AF5FC422867D96E06C4B7BD69_1623557926542.png"
-                                alt="Background Image" class="object-cover object-center w-full h-full" loading="lazy" />
-
+        <div id="animation-carousel" class="relative w-full h-screen" data-carousel="slide">
+                <div class=" flex flex-col justify-center items-center h-screen">
+                        <p class="font-bold text-5xl">SELAMAT DATANG</p>
+                        <p class="font-medium text-3xl">Website Desa Bontomanai</p>
+                        <p class="font-normal text-xl">Kecamatan Bangkala, Kabupaten Jeneponto</p>
                 </div>
-                <div class="absolute inset-9 flex flex-col md:flex-row items-center justify-between">
-                        <div class="flex md:w-1/2 items-center mt-56 md:mt-0 md:mb-10">
-                                <h1 class="text-grey-700 font-medium text-3xl md:text-5xl leading-tight mb-2">
-                                        Desa Bontomanai
-                                        Kecamatan Bangkala
-                                        Kabupaten Jeneponto
-                                </h1>
+
+                <!-- Carousel wrapper -->
+                <div class="relative h-full overflow-hidden rounded-lg md:h-96 opacity-5">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <img src="{{ asset('images/carousel/carousel-1.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="carousel image 1">
+
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <img src="{{ asset('images/carousel/carousel-2.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+                                <img src="{{ asset('images/carousel/carousel-3.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <img src="{{ asset('images/carousel/carousel-4.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <img src="{{ asset('images/carousel/carousel-5.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                        </div>
+                        <!-- Item 6 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <img src="{{ asset('images/carousel/carousel-6.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                        </div>
+                        <!-- Item 7 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <img src="{{ asset('images/carousel/carousel-7.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                        </div>
+                        <!-- Item 8 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+                                <img src="{{ asset('images/carousel/carousel-8.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
+                        </div>
+                        <!-- Item 9 -->
+                        <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                <img src="{{ asset('images/carousel/carousel-9.jpeg') }}"
+                                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="...">
                         </div>
                 </div>
+
+                <!-- Slider controls -->
+                <button type="button"
+                        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                        data-carousel-prev>
+                        <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M5 1 1 5l4 4" />
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                        </span>
+                </button>
+                <button type="button"
+                        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                        data-carousel-next>
+                        <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="m1 9 4-4-4-4" />
+                                </svg>
+                                <span class="sr-only">Next</span>
+                        </span>
+                </button>
         </div>
+
 
         <!-- sambutan -->
         <section class="py-10" id="services">
@@ -75,9 +154,9 @@
                                                 <a class="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900 focus:ring-slate-500 mt-6"
                                                         href="{{ route('tentangDesa') }}">Lihat Selengkapnya
                                                         <svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-400"
-                                                                width="3" height="6" viewBox="0 0 3 6" fill="none"
-                                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                                stroke-linejoin="round">
+                                                                width="3" height="6" viewBox="0 0 3 6"
+                                                                fill="none" stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round">
                                                                 <path d="M0 0L3 3L0 6"></path>
                                                         </svg></a>
                                         </div>
