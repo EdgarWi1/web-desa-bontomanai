@@ -7,7 +7,7 @@
         <div class="relative w-full min-h-screen" id="home">
                 <div class="absolute inset-0 opacity-70">
                         <img src="https://image1.jdomni.in/banner/13062021/0A/52/CC/1AF5FC422867D96E06C4B7BD69_1623557926542.png"
-                                alt="Background Image" class="object-cover object-center w-full h-full" />
+                                alt="Background Image" class="object-cover object-center w-full h-full" loading="lazy" />
 
                 </div>
                 <div class="absolute inset-9 flex flex-col md:flex-row items-center justify-between">
@@ -36,12 +36,11 @@
                                                 Terima kasih kepada semua pihak yang telah banyak memberi dukungan dan
                                                 kontribusi baik berupa tenaga, pikiran dan semangat sehingga website ini dapat
                                                 terealisasi.
-
                                         </p>
                                 </div>
                                 <div class="container flex flex-col justify-center items-center ">
                                         <img src="{{ asset('images/profil.jpeg') }}" alt="foto kepala desa" alt="foto kades"
-                                                class="h-auto w-60 md:w-80 rounded-full object-cover">
+                                                class="h-auto w-60 md:w-80 rounded-full object-cover" loading="lazy">
                                         <p class="font-bold text-lg mt-2">Radjadeng, S.Pd.I</p>
                                 </div>
                         </div>
@@ -53,7 +52,7 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
                                 <div class="mt-12 md:mt-0">
                                         <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
-                                                alt="About Us Image" class="object-cover rounded-lg shadow-md">
+                                                alt="About Us Image" class="object-cover rounded-lg shadow-md" loading="lazy">
                                 </div>
                                 <div class="max-w-lg">
                                         <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Tentang Desa</h2>
@@ -159,7 +158,7 @@
                                         <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                 <div class="flex justify-center">
                                                         <img src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp"
-                                                                class="w-32 mb-3">
+                                                                class="w-32 mb-3" loading="lazy">
                                                 </div>
                                                 <h2 class="title-font font-regular text-2xl text-gray-900">Selai Buah
                                                         Lontar</h2>
@@ -170,7 +169,7 @@
                                         <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                 <div class="flex justify-center">
                                                         <img src="https://image2.jdomni.in/banner/13062021/3E/57/E8/1D6E23DD7E12571705CAC761E7_1623567977295.png?output-format=webp"
-                                                                class="w-32 mb-3">
+                                                                class="w-32 mb-3" loading="lazy">
                                                 </div>
                                                 <h2 class="title-font font-regular text-2xl text-gray-900">Pie Buah
                                                         Lontar</h2>
@@ -181,7 +180,7 @@
                                         <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                 <div class="flex justify-center">
                                                         <img src="https://image3.jdomni.in/banner/13062021/16/7E/7E/5A9920439E52EF309F27B43EEB_1623568010437.png?output-format=webp"
-                                                                class="w-32 mb-3">
+                                                                class="w-32 mb-3" loading="lazy">
                                                 </div>
                                                 <h2 class="title-font font-regular text-2xl text-gray-900">Time
                                                         Efficiency</h2>
@@ -192,7 +191,7 @@
                                         <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                 <div class="flex justify-center">
                                                         <img src="https://image3.jdomni.in/banner/13062021/EB/99/EE/8B46027500E987A5142ECC1CE1_1623567959360.png?output-format=webp"
-                                                                class="w-32 mb-3">
+                                                                class="w-32 mb-3" loading="lazy">
                                                 </div>
                                                 <h2 class="title-font font-regular text-2xl text-gray-900">Expertise in
                                                         Industry</h2>

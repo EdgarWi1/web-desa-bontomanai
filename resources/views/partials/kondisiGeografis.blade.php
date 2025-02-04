@@ -1,4 +1,4 @@
-<div class="">
+<div class="md:px-10 md:py-5">
         <div class="indent-8 md:indent-16">
                 Desa Bontomanai adalah salah satu desa yang terletak di wilaya kecamatan bangkala kabupaten jeneponto
                 dengan
