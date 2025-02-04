@@ -6,21 +6,22 @@
 
         <!-- inspired by tailwindcss.com -->
         <ul class="grid grid-cols-1 xl:grid-cols-3 gap-y-10 gap-x-6 items-start p-8">
-                <li class="relative flex flex-col sm:flex-row xl:flex-col items-center">
-                        <div class="flex flex-col order-1 sm:ml-6 xl:ml-0">
-                                <h3 class="mb-1 text-slate-900 font-semibold">
+
+                <li class="relative flex flex-col sm:flex-row xl:flex-col items-center w-full max-w-[17rem] xl:max-w-full">
+                        <div class="order-1 sm:ml-6 xl:ml-0">
+                                <h3 class="flex flex-col mb-1 text-slate-900 font-semibold">
                                         <span>Selai Lontar</span>
                                 </h3>
                                 <div class="prose-lg text-slate-600">
                                         <p>Inovasi dari buah lontar. Diambil dari buah lontar muda dan dimasak menjadi selai</p>
                                 </div>
                         </div>
-                        <img src="https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg" alt=""
-                                class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
+                        <img src="" alt="Selai Lontar"
+                                class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full h-60 object-cover"
                                 width="1216" height="640">
                 </li>
 
-                <li class="relative flex flex-col sm:flex-row xl:flex-col items-center">
+                <li class="relative flex flex-col sm:flex-row xl:flex-col items-center w-full max-w-[17rem] xl:max-w-full">
                         <div class="order-1 sm:ml-6 xl:ml-0">
                                 <h3 class="flex flex-col mb-1 text-slate-900 font-semibold">
                                         <span>Pie Lontar</span>
@@ -31,40 +32,24 @@
                                                 buah lontar</p>
                                 </div>
                         </div>
-                        <img src="https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg" alt=""
-                                class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
+                        <img src="{{ asset('images/produkLokal/pie-lontar.jpeg') }}" alt="Pie Lontar"
+                                class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full h-60 object-cover"
                                 width="1216" height="640">
                 </li>
 
-                {{-- <li class="relative flex flex-col sm:flex-row xl:flex-col items-center">
-                        <div class="flex flex-col order-1 sm:ml-6 xl:ml-0">
-                                <h3 class="mb-1 text-slate-900 font-semibold">
-                                        <span>Selai Lontar</span>
-                                </h3>
-                                <div class="prose prose-slate prose-sm text-slate-600">
-                                        <p>Inovasi dari buah lontar. Diambil dari buah lontar muda dan dimasak menjadi selai</p>
-                                </div>
-                        </div>
-                        <img src="https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg" alt=""
-                                class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
-                                width="1216" height="640">
-                </li>
-
-                <li class="relative flex flex-col sm:flex-row xl:flex-col items-center">
+                <li class="relative flex flex-col sm:flex-row xl:flex-col items-center w-full max-w-[17rem] xl:max-w-full">
                         <div class="order-1 sm:ml-6 xl:ml-0">
                                 <h3 class="flex flex-col mb-1 text-slate-900 font-semibold">
-                                        <span>Pie Lontar</span>
+                                        <span> Image Title Image Title</span>
                                 </h3>
-                                <div class="prose prose-slate prose-sm text-slate-600">
-                                        <p>Inovasi dari buah lontar. Diambil dari campuran buah lontar muda dan lontar masak
-                                                lalu dimasukkan ke adonan pie, sehingga membuat pie memiliki aroma unik dari
-                                                buah lontar</p>
+                                <div class="prose-lg text-slate-600">
+                                        <p>Image Description Image Description Image Description Image Description </p>
                                 </div>
                         </div>
-                        <img src="https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg" alt=""
-                                class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full"
+                        <img src="" alt="Image"
+                                class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full h-60 object-cover"
                                 width="1216" height="640">
-                </li> --}}
+                </li>
         </ul>
 
 @endsection
