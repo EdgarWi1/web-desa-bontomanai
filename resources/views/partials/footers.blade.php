@@ -33,7 +33,7 @@
                                         <h3 class="text-md font-bold text-gray-500">Jam Operasi
                                         </h3>
                                         <p class="text-sm mt-1 text-gray-400">
-                                                Senin - Jumat : 08.00 - 16.00
+                                                Senin - Jumat : 08.00 - 16.00 WITA
                                         </p>
                                 </div>
                                 <div class="px-6 py-2">

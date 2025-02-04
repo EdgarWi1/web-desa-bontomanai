@@ -12,7 +12,7 @@
                 </div>
 
                 <!-- Carousel wrapper -->
-                <div class="relative h-full overflow-hidden rounded-lg md:h-96 opacity-5">
+                <div class="relative h-full overflow-hidden rounded-lg md:h-screen opacity-5">
                         <!-- Item 1 -->
                         <div class="hidden duration-200 ease-linear" data-carousel-item>
                                 <img src="{{ asset('images/carousel/carousel-1.jpeg') }}"
@@ -101,7 +101,7 @@
 
 
         <!-- sambutan -->
-        <section class="py-10" id="services">
+        <section class="py-10 h-screen" id="services">
                 <div class="container mx-auto px-4">
                         <h2 class="text-3xl font-bold text-[#21b92d] mb-8 text-center">Sambutan Kepala Desa</h2>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -126,12 +126,12 @@
         </section>
 
         <!-- about us -->
-        <section class="container" id="aboutus">
+        <section class="h-screen" id="aboutus">
                 <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
                         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
                                 <div class="mt-12 md:mt-0">
-                                        <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
-                                                alt="About Us Image" class="object-cover rounded-lg shadow-md" loading="lazy">
+                                        <img src="{{ asset('images/carousel-1.jpeg') }}" alt="About Us Image"
+                                                class="object-cover rounded-lg shadow-md" loading="lazy">
                                 </div>
                                 <div class="max-w-lg">
                                         <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Tentang Desa</h2>
@@ -167,7 +167,7 @@
         </section>
 
         <!-- Administrasi -->
-        <section class="flex-grow p-5 md:p-10 bg-gray-100">
+        <section class="flex-grow p-5 md:p-10 bg-gray-100 h-screen">
                 <div class="flex justify-center text-3xl font-bold text-gray-800 text-center">
                         Administrasi Penduduk
                 </div>
@@ -227,7 +227,7 @@
         </section>
 
         <!-- produk lokal  -->
-        <section class="text-gray-700 body-font mt-10">
+        <section class="text-gray-700 body-font mt-10 h-screen">
                 <div class="flex justify-center text-3xl font-bold text-gray-800 text-center">
                         Produk Lokal
                 </div>
