@@ -16,7 +16,7 @@
                                         <p>Inovasi dari buah lontar. Diambil dari buah lontar muda dan dimasak menjadi selai</p>
                                 </div>
                         </div>
-                        <img src="" alt="Selai Lontar"
+                        <img src="https://img.icons8.com/ios/40/stack-of-photos--v1.png" alt="Selai Lontar"
                                 class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full h-60 object-cover"
                                 width="1216" height="640">
                 </li>
@@ -43,7 +43,7 @@
                                         <span> NDDY Cake </span>
                                 </h3>
                                 <div class="prose-lg text-slate-600">
-                                        <p>NDDY CAKE ⁠Menerima pesanan Custom Cake untuk segala acara. Ulang tahun, anniversary,
+                                        <p>Menerima pesanan Custom Cake untuk segala acara. Ulang tahun, anniversary,
                                                 baby shower, wedding cake, graduation cake dll. Pemesanan bisa H-1 tergantung
                                                 jenis pesanan. </p>
                                 </div>

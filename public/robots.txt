@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://eb-desa-bontomanai.vercel.app/sitemap.xml

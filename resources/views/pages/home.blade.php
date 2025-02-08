@@ -202,7 +202,7 @@
                                         <div class="p-4 md:w-1/4 sm:w-1/2">
                                                 <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                         <div class="flex justify-center">
-                                                                <img src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp"
+                                                                <img src="https://img.icons8.com/ios/40/stack-of-photos--v1.png"
                                                                         class="w-48 h-40 mb-3 object-cover rounded-2xl"
                                                                         loading="lazy">
                                                         </div>
