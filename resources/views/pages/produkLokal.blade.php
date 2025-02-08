@@ -40,13 +40,15 @@
                 <li class="relative flex flex-col sm:flex-row xl:flex-col items-center w-full max-w-[17rem] xl:max-w-full">
                         <div class="order-1 sm:ml-6 xl:ml-0">
                                 <h3 class="flex flex-col mb-1 text-slate-900 font-semibold">
-                                        <span> Image Title Image Title</span>
+                                        <span> NDDY Cake </span>
                                 </h3>
                                 <div class="prose-lg text-slate-600">
-                                        <p>Image Description Image Description Image Description Image Description </p>
+                                        <p>NDDY CAKE ⁠Menerima pesanan Custom Cake untuk segala acara. Ulang tahun, anniversary,
+                                                baby shower, wedding cake, graduation cake dll. Pemesanan bisa H-1 tergantung
+                                                jenis pesanan. </p>
                                 </div>
                         </div>
-                        <img src="" alt="Image"
+                        <img src="{{ asset('images/produkLokal/nddy-1.jpeg') }}" alt="Image"
                                 class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full h-60 object-cover"
                                 width="1216" height="640">
                 </li>

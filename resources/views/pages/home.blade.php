@@ -52,7 +52,7 @@
 
         <!-- sambutan -->
         <section class="flex items-center justify-center py-10 h-screen" id="services">
-                <div class="container mx-auto px-4">
+                <div class="container mx-auto px-28">
                         <h2 class="text-3xl font-bold text-[#21b92d] mb-8 text-center">Sambutan Kepala Desa</h2>
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                                 <div class="order-1 flex items-center justify-end md:col-span-2 md:mb-10">
@@ -68,8 +68,9 @@
                                         </p>
                                 </div>
                                 <div class="container flex flex-col justify-center items-center ">
-                                        <img src="{{ asset('images/profil.jpeg') }}" alt="foto kepala desa" alt="foto kades"
-                                                class="h-auto w-60 md:w-80 rounded-full object-cover" loading="lazy">
+                                        <img src="{{ asset('images/foto-profil-pakde.jpg') }}" alt="foto kepala desa"
+                                                alt="foto kades" class="h-auto w-60 md:w-80 rounded-full object-cover"
+                                                loading="lazy">
                                         <p class="font-bold text-lg mt-2">Radjadeng, S.Pd.I</p>
                                 </div>
                         </div>
@@ -192,17 +193,18 @@
 
         <!-- Produk Lokal -->
         <section class="flex justify-center items-center text-[#21b92d] body-font mt-10 py-16">
-                <div class="mx-auto px-4">
-                        <div class="flex justify-center text-3xl font-bold text-gray-800 text-center">
+                <div class="mx-auto">
+                        <div class="flex justify-center text-3xl font-bold  text-center">
                                 Produk Lokal
                         </div>
-                        <div class="container px-5 py-12 mx-auto">
-                                <div class="flex flex-wrap text-center justify-center gap-y-10">
+                        <div class="container py-12 ">
+                                <div class="flex  text-center justify-evenly gap-y-10">
                                         <div class="p-4 md:w-1/4 sm:w-1/2">
                                                 <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                         <div class="flex justify-center">
                                                                 <img src="https://image3.jdomni.in/banner/13062021/58/97/7C/E53960D1295621EFCB5B13F335_1623567851299.png?output-format=webp"
-                                                                        class="w-32 mb-3" loading="lazy">
+                                                                        class="w-48 h-40 mb-3 object-cover rounded-2xl"
+                                                                        loading="lazy">
                                                         </div>
                                                         <h2 class="title-font font-regular text-2xl text-gray-900">Selai Buah
                                                                 Lontar</h2>
@@ -212,8 +214,9 @@
                                         <div class="p-4 md:w-1/4 sm:w-1/2">
                                                 <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                         <div class="flex justify-center">
-                                                                <img src="https://image2.jdomni.in/banner/13062021/3E/57/E8/1D6E23DD7E12571705CAC761E7_1623567977295.png?output-format=webp"
-                                                                        class="w-32 mb-3" loading="lazy">
+                                                                <img src="{{ asset('images/produkLokal/pie-lontar.jpeg') }}"
+                                                                        class="w-48 h-40 mb-3 object-cover rounded-2xl"
+                                                                        loading="lazy">
                                                         </div>
                                                         <h2 class="title-font font-regular text-2xl text-gray-900">Pie Buah
                                                                 Lontar</h2>
@@ -223,15 +226,16 @@
                                         <div class="p-4 md:w-1/4 sm:w-1/2">
                                                 <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                         <div class="flex justify-center">
-                                                                <img src="https://image3.jdomni.in/banner/13062021/16/7E/7E/5A9920439E52EF309F27B43EEB_1623568010437.png?output-format=webp"
-                                                                        class="w-32 mb-3" loading="lazy">
+                                                                <img src="{{ asset('images/produkLokal/nddy.jpeg') }}"
+                                                                        class="w-48 h-40 mb-3 object-cover rounded-2xl"
+                                                                        loading="lazy">
                                                         </div>
                                                         <h2 class="title-font font-regular text-2xl text-gray-900">Time
                                                                 Efficiency</h2>
                                                 </div>
                                         </div>
 
-                                        <div class="p-4 md:w-1/4 sm:w-1/2">
+                                        {{-- <div class="p-4 md:w-1/4 sm:w-1/2">
                                                 <div class="px-4 py-6 transform transition duration-500 hover:scale-110">
                                                         <div class="flex justify-center">
                                                                 <img src="https://image3.jdomni.in/banner/13062021/EB/99/EE/8B46027500E987A5142ECC1CE1_1623567959360.png?output-format=webp"
@@ -240,7 +244,7 @@
                                                         <h2 class="title-font font-regular text-2xl text-gray-900">Expertise in
                                                                 Industry</h2>
                                                 </div>
-                                        </div>
+                                        </div> --}}
 
                                 </div>
                         </div>
