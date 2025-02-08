@@ -230,8 +230,8 @@
                                                                         class="w-48 h-40 mb-3 object-cover rounded-2xl"
                                                                         loading="lazy">
                                                         </div>
-                                                        <h2 class="title-font font-regular text-2xl text-gray-900">Time
-                                                                Efficiency</h2>
+                                                        <h2 class="title-font font-regular text-2xl text-gray-900">NDDY CAKE
+                                                        </h2>
                                                 </div>
                                         </div>
 

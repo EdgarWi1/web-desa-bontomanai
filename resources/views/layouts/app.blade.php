@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <meta name="google-site-verification" content="FuxOxdVei-Bzn9rnzL44E61Tw6Fq0E0DhOjCfrFD07U" />
         <title>@yield('title', 'Bontomanai')</title>
 
         <link rel="icon" type="image/png" href="{{ asset('images/Logo_Jeneponto.png') }}">
