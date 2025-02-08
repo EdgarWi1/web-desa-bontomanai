@@ -126,8 +126,8 @@
                         <div class="grid grid-cols-1 md:gridcol3 gap-6 mt-8">
                                 <!-- Kartu Data -->
                                 <div class="md:flex md:col-span-3 md:justify-evenly">
-                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto mt-8 md:mt-0">
-                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md">
+                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto mt-8 md:mt-0 shadow-lg">
+                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md h-16">
                                                         <div class="text-lg md:text-xl font-bold text-white p-5 md:p-10">
                                                                 Laki-Laki</div>
                                                 </div>
@@ -137,8 +137,8 @@
                                                 </div>
                                         </div>
 
-                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto mt-8 md:mt-0">
-                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md">
+                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto mt-8 md:mt-0 shadow-lg">
+                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md h-16">
                                                         <div class="text-lg md:text-xl font-bold text-white p-5 md:p-10">Jumlah
                                                                 Penduduk
                                                         </div>
@@ -149,8 +149,8 @@
                                                 </div>
                                         </div>
 
-                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto mt-8 md:mt-0">
-                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md">
+                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto mt-8 md:mt-0 shadow-lg">
+                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md h-16">
                                                         <div class="text-lg md:text-xl font-bold text-white p-5 md:p-10">
                                                                 Perempuan</div>
                                                 </div>
@@ -161,9 +161,9 @@
                                         </div>
                                 </div>
 
-                                <div class="md:flex md:col-span-3 md:justify-evenly">
-                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto ">
-                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md">
+                                <div class="md:flex md:col-span-3 md:mx-56">
+                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto shadow-lg">
+                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md h-16">
                                                         <div class="text-lg md:text-xl font-bold text-white p-5 md:p-10">Jumlah
                                                                 Rumah
                                                         </div>
@@ -174,8 +174,8 @@
                                                 </div>
                                         </div>
 
-                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto mt-8 md:mt-0 ">
-                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md">
+                                        <div class="grid grid-cols-1 w-full max-w-xs mx-auto mt-8 md:mt-0 shadow-lg">
+                                                <div class="flex justify-center items-center bg-[#21b92d] rounded-t-md h-16">
                                                         <div class="text-lg md:text-xl font-bold text-white p-5 md:p-10">Kepala
                                                                 Keluarga
                                                         </div>
@@ -303,7 +303,6 @@
                         </div>
                 </div>
         </section>
-
 
 
 
